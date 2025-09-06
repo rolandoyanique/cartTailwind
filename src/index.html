@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>TAILWIND</title>
@@ -8,13 +9,16 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
+
 <body class="max-w-xl mx-auto  min-h-dvh
             bg-gradient-to-b from-black via-sky-950 to-gray-800">
-  
+
   <header class="text-white">
-   <img src="./assets/chema.jpg" alt="el mejor hacker del mundo" class="h-[50vh] object-cover mask-radial-at-center mask-radial-from-45% mask-radial-to-80%">
+    <img src="./assets/chema.jpg" alt="el mejor hacker del mundo" class="h-[50vh] object-cover mask-radial-at-center 
+               mask-radial-from-45% mask-radial-to-80%">
     <header class="flex flex-col justify-center items-center">
-      <span class="text-sky-400 text-xl font-mono px-3 py-1 border border-sky-500/50 rounded-full shadow-sm flex items-center justify-center bg-black/65 cursor-crosshair mb-8 -mt-4 z-10">
+      <span class="text-sky-400 text-xl font-mono px-3 py-1 border border-sky-500/50 rounded-full shadow-sm 
+      flex items-center justify-center bg-black/65 cursor-crosshair mb-8 -mt-4 z-10">
         @Chema Alonso
         <svg class="ml-1 w-5 h-5 text-sky-400 inline" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
           <path fill-rule="evenodd"
@@ -22,61 +26,113 @@
             clip-rule="evenodd" />
         </svg>
       </span>
-      <h1 class="text-3xl font-extrabold leading-tight mt-1">
-        El mejor hacker del mundo
+      <h1 class="text-3xl font-extrabold leading-tight mt-1 mb-1">
+        El mejor hacker
       </h1>
     </header>
-  <section class="flex gap-2 justify-center">
-<!-- Twitch -->
-    <a class="bg-purple-100 p-2 size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform" href="https://www.google.com" target="_blank" aria-label="Twitch" title="Ir a enlace Rolando">
-    <svg width="28" height="28">
-      <use xlink:href="./assets/sprite.svg#twitch"/>
-    </svg>
-  </a>
-<!-- GitHub -->
-<a class="bg-zinc-900 p-2 size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform" 
-   href="https://github.com/tu_usuario" target="_blank" aria-label="GitHub" title="Ir a GitHub">
-  <svg width="28" height="28">
-    <use xlink:href="./assets/sprite.svg#github"/>
-  </svg>
-</a>
+    <section class="flex gap-2 justify-center">
+      <!-- Twitch -->
+      <a class="bg-purple-100 p-2 size-12 sm:size-16 flex items-center justify-center rounded-full hover:scale-110 transition-transform"
+        href="https://www.google.com" target="_blank" aria-label="Twitch" title="Ir a enlace Rolando">
+        <svg width="28" height="28">
+          <use xlink:href="./assets/sprite.svg#twitch" />
+        </svg>
+      </a>
+      <!-- GitHub -->
+      <a class="bg-zinc-900 p-2 size-12 sm:size-16 flex items-center justify-center rounded-full hover:scale-110 transition-transform"
+        href="https://github.com/tu_usuario" target="_blank" aria-label="GitHub" title="Ir a GitHub">
+        <svg width="28" height="28">
+          <use xlink:href="./assets/sprite.svg#github" />
+        </svg>
+      </a>
 
-<!-- Instagram -->
-<a class="p-2 size-12 flex items-center 
+      <!-- Instagram -->
+      <a class="p-2 size-12 sm:size-16 flex items-center 
 justify-center rounded-full hover:scale-110 
-transition-transform bg-gradient-to-tr from-yellow-300 via-pink-500 to-purple-600" 
-   href="https://instagram.com/tu_usuario" target="_blank" aria-label="Instagram" title="Ir a Instagram">
-  <svg width="28" height="28">
-    <use xlink:href="./assets/sprite.svg#instagram"/>
-  </svg>
-</a>
+transition-transform bg-gradient-to-tr from-yellow-300 via-pink-500 to-purple-600"
+        href="https://instagram.com/tu_usuario" target="_blank" aria-label="Instagram" title="Ir a Instagram">
+        <svg width="28" height="28">
+          <use xlink:href="./assets/sprite.svg#instagram" />
+        </svg>
+      </a>
 
-<!-- YouTube -->
-<a class="bg-purple-100 p-2 size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform" 
-   href="https://youtube.com/@tu_usuario" target="_blank" aria-label="YouTube" title="Ir a YouTube">
-  <svg width="28" height="28">
-    <use xlink:href="./assets/sprite.svg#youtube"/>
-  </svg>
-</a>
+      <!-- YouTube -->
+      <a class="bg-purple-100 p-2 size-12 sm:size-16 flex items-center justify-center rounded-full hover:scale-110 transition-transform"
+        href="https://youtube.com/@tu_usuario" target="_blank" aria-label="YouTube" title="Ir a YouTube">
+        <svg width="28" height="28">
+          <use xlink:href="./assets/sprite.svg#youtube" />
+        </svg>
+      </a>
 
-<!-- X (Twitter) -->
-<a class="bg-black p-2 size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform" 
-   href="https://x.com/tu_usuario" target="_blank" aria-label="X" title="Ir a X">
-  <svg width="28" height="28">
-    <use xlink:href="./assets/sprite.svg#x"/>
-  </svg>
-</a>
+      <!-- X (Twitter) -->
+      <a class="bg-black p-2 size-12 sm:size-16 flex items-center justify-center rounded-full hover:scale-110 transition-transform"
+        href="https://x.com/tu_usuario" target="_blank" aria-label="X" title="Ir a X">
+        <svg width="28" height="28">
+          <use xlink:href="./assets/sprite.svg#x" />
+        </svg>
+      </a>
 
-<!-- LinkedIn -->
-<a class="bg-purple-100 p-2 size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform" 
-   href="https://linkedin.com/in/tu_usuario" target="_blank" aria-label="LinkedIn" title="Ir a LinkedIn">
-  <svg width="28" height="28">
-    <use xlink:href="./assets/sprite.svg#linkedin"/>
-  </svg>
-</a>
-  </section>
-  
-
+      <!-- LinkedIn -->
+      <a class="bg-purple-100 p-2 size-12 sm:size-16 flex items-center justify-center rounded-full hover:scale-110 transition-transform"
+        href="https://linkedin.com/in/tu_usuario" target="_blank" aria-label="LinkedIn" title="Ir a LinkedIn">
+        <svg width="28" height="28">
+          <use xlink:href="./assets/sprite.svg#linkedin" />
+        </svg>
+      </a>
+    </section>
+    <p class="text-[#6694b3] text-center mt-4 text-sm px-24 text-balance">
+      Hacker,CEO y el mejor hacker del mundo, fundador de informatica 64 CEO de la empresa mas grande de españa y uno de
+      los referentes mas capacitados en ciberseguridad informatica
+    </p>
+    <main class="pt-4 px-4 pb-16">
+      <div class="grid grid-cols-3 grid-rows-2 gap-2 w-full">
+        <a href="http://cursoreact.dev" class="relative rounded-3xl overflow-hidden bg-gradient-to-br from-cyan-900 via-cyan-700 to-cyan-500 border border-cyan-900 flex flex-col items-start hover:scale-105 hover:contrast-125 transition-tr group col-span-2 p-7 min-h-[180px]">
+          <span class="absolute bottom-2 left-4 font-bold text-2xl group-hover:-translate-y-1 transition-transform">
+            React.js
+          </span>
+          <svg width="100" height="100" class="absolute -right-4 -bottom-4 -rotate-6 size-28 group-hover:-rotate-12 group-hover:scale-125 transition-transform">
+            <use xlink:href="./assets/sprite.svg#react"></use>
+          </svg>
+          <span class="absolute top-2 left-2 text-xs border rounded-xl px-1 py-0.5">Curso de +14 clases</span>
+        </a>
+        <a href="http://cursoreact.dev" class="relative rounded-3xl overflow-hidden bg-gradient-to-br from-[#E44D26] via-[#F16529] to-white border border-[#E44D26] flex flex-col items-start hover:scale-105 hover:contrast-125 transition-tr group col-span-1 p-7 min-h-[180px]">
+          <span class="absolute bottom-2 left-4 font-bold text-2xl group-hover:-translate-y-1 transition-transform">
+            HTML
+          </span>
+          <svg width="100" height="100" class="absolute -right-4 -bottom-4 -rotate-6 size-28 group-hover:-rotate-12 group-hover:scale-125 transition-transform">
+            <use xlink:href="./assets/sprite.svg#html"></use>
+          </svg>
+          <span class="absolute top-2 left-2 text-xs border rounded-xl px-1 py-0.5">Para principiantes</span>
+        </a>
+        <a href="http://cursoreact.dev" class="relative rounded-3xl overflow-hidden bg-gradient-to-br from-[#663399] via-[#8e44ad] to-white border border-[#663399] flex flex-col items-start hover:scale-105 hover:contrast-125 transition-tr group col-span-1 p-7 min-h-[180px]">
+          <span class="absolute bottom-2 left-4 font-bold text-2xl group-hover:-translate-y-1 transition-transform">
+            CSS
+          </span>
+          <svg width="100" height="100" class="absolute -right-4 -bottom-4 -rotate-6 size-28 group-hover:-rotate-12 group-hover:scale-125 transition-transform">
+            <use xlink:href="./assets/sprite.svg#css"></use>
+          </svg>
+          <span class="absolute top-2 left-2 text-xs border rounded-xl px-1 py-0.5">Para principiantes</span>
+        </a>
+        <a href="http://cursoreact.dev" class="
+      relative rounded-3xl overflow-hidden bg-gradient-to-br from-cyan-900
+      via-[#3C873A] to-[#8CC84B] border border-cyan-900 flex flex-col items-start
+      hover:scale-105 hover:contrast-125 transition-tr group
+      col-span-2 p-7 min-h-[180px]
+      ">
+          <span class="absolute bottom-2 left-4 font-bold text-2xl
+    group-hover:-translate-y-1 transition-transform">
+            Node.js
+          </span>
+          <svg width="100" height="100" class="absolute -right-4 -bottom-4 
+    -rotate-6 size-28 group-hover:-rotate-12 group-hover:scale-125
+    transition-transform">
+            <use xlink:href="./assets/sprite.svg#node"></use>
+          </svg>
+          <span class="absolute top-2 left-2 text-xs border rounded-xl px-1 py-0.5">Curso de +14 clases</span>
+        </a>
+      </div>
+    </main>
   </header>
 </body>
+
 </html>
